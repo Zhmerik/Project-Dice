@@ -7,10 +7,49 @@
     <h2>У вас є унікальна можливіть кинути кубик та поставити на те яка грань випаде!</h2>
 
     <div class="dice">
-        <p>@diceResult</p>
+     @if (diceResult == 1)
+        {
+            <div class="dot dot-pos-5"></div>
+        }
+        else if (diceResult == 2)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 3)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-5"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 4)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-3"></div>
+            <div class="dot dot-pos-7"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 5)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-3"></div>
+            <div class="dot dot-pos-5"></div>
+            <div class="dot dot-pos-7"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 6)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-3"></div>
+            <div class="dot dot-pos-4"></div>
+            <div class="dot dot-pos-6"></div>
+            <div class="dot dot-pos-7"></div>
+            <div class="dot dot-pos-9"></div>
+        }
     </div>
 
     <button @onclick="rollingdice" class="buton">Кинути кубик</button>
+    <p>@diceResult</p>
 </div>
 @code
 {
