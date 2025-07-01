@@ -1,7 +1,24 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
 <PageTitle>Project Dice</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Вітаю!</h1>
+<h2>У вас є унікальна можливіть кинути кубик та поставити на те яка грань випаде!</h2>
 
-Welcome to your new app.
+<div class="dice">
+    
+</div>
+
+<button @onclick="Perevirca">Кинути кубик</button>
+
+<p>Перевірка: @amout</p>
+
+@code
+{
+    int amout = 0;
+    void Perevirca()
+    {
+        amout++;
+    }
+}
