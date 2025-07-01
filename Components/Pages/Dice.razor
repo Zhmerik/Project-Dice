@@ -4,7 +4,7 @@
 <div class="conteiner">
 <h1>Ваш баланс: @balance</h1>
 <h3>Сума ставки: @bet</h3>
-<h3>Ставка на: @dice грань</h3>
+<h3>Ставка на: @dicePredict грань</h3>
 <div class="bet">
     <h2>Сума ставки:</h2>
     <ul>
@@ -71,7 +71,7 @@
         }
     </div>
 
-    <button @onclick="rollingdice" class="buton">Кинути кубик</button>
+    <button @onclick="Beting" class="buton">Кинути кубик</button>
     <p>@diceResult</p>
     <p>@bet</p>
 </div>
@@ -79,7 +79,7 @@
 {
     int balance = 500;
     int bet = 0;    
-    int dice;
+    int dicePredict;
 
     void changebet1()
     {
@@ -111,32 +111,33 @@
     }
     void dicepredict1()
     {
-        dice = 1;
+        dicePredict = 1;
     }
      void dicepredict2()
     {
-        dice = 2;
+        dicePredict = 2;
     }
      void dicepredict3()
     {
-        dice = 3;
+        dicePredict = 3;
     }
      void dicepredict4()
     {
-        dice = 4;
+        dicePredict = 4;
     }
      void dicepredict5()
     {
-        dice = 5;
+        dicePredict = 5;
     }
      void dicepredict6()
     {
-        dice = 6;
+        dicePredict = 6;
     }
      void dicepredict7()
     {
-        dice = 0;
+        dicePredict = 0;
     }
+
     int diceResult;
     void rollingdice()
     {
@@ -144,4 +145,15 @@
         diceResult = dice.Next(1,7);
     }
 
+    void Beting()
+    {
+    if (dicePredict >0 && bet >0)
+    {
+        rollingdice();
+    }
+    else
+    {
+        return;
+    }
+    }
 }
