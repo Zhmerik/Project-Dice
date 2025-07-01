@@ -150,10 +150,33 @@
     if (dicePredict >0 && bet >0)
     {
         rollingdice();
+        Prize();
     }
     else
     {
         return;
     }
+    }
+    void Prize()
+    {
+        if (dicePredict==diceResult)
+        {
+            balance = bet*2;
+        }
+        else 
+        {
+            balance = balance - bet;
+        }
+    }
+    void money()
+    {
+        if (bet>balance)
+        {
+
+        }
+        else 
+        {
+
+        }
     }
 }
