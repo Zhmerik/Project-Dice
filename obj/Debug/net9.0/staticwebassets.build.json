@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZHXBL/Mv4TC5OGzlt8ifuy1HurOOph9RsUwxUVPQcsw=",
+  "Hash": "3xwUHDD+XEwjARWRRpUJeGEUqpTMOzaKa52/Divu8sM=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-dhuw6ieovz.gz",
+      "Identity": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-98r1s88i57.gz",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "app#[.{fingerprint=dhuw6ieovz}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=98r1s88i57}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xg7th9647q",
-      "Integrity": "EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I=",
+      "Fingerprint": "gkpuvjz21z",
+      "Integrity": "EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\wwwroot\\app.css"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dhuw6ieovz",
-      "Integrity": "r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM=",
+      "Fingerprint": "98r1s88i57",
+      "Integrity": "5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -2014,13 +2014,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-dhuw6ieovz.gz",
+      "Route": "app.98r1s88i57.css",
+      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-98r1s88i57.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000433463372"
+          "Quality": "0.000427167877"
         }
       ],
       "ResponseHeaders": [
@@ -2030,19 +2030,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2306"
+          "Value": "2340"
         },
         {
           "Name": "ETag",
-          "Value": "\"EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I=\""
+          "Value": "\"EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 13:08:21 GMT"
+          "Value": "Tue, 01 Jul 2025 17:51:54 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2058,18 +2058,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM=\""
+          "Value": "W/\"5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "98r1s88i57"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM="
+          "Value": "sha256-5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM="
         }
       ]
     },
     {
-      "Route": "app.css",
+      "Route": "app.98r1s88i57.css",
       "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2079,7 +2087,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5243"
+          "Value": "5460"
         },
         {
           "Name": "Content-Type",
@@ -2087,121 +2095,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM=\""
+          "Value": "\"5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 13:08:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-dhuw6ieovz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2306"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 13:08:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I="
-        }
-      ]
-    },
-    {
-      "Route": "app.dhuw6ieovz.css",
-      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-dhuw6ieovz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000433463372"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2306"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 13:08:21 GMT"
+          "Value": "Tue, 01 Jul 2025 17:51:54 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dhuw6ieovz"
+          "Value": "98r1s88i57"
         },
         {
           "Name": "label",
@@ -2209,13 +2117,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM="
+          "Value": "sha256-5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM="
         }
       ]
     },
     {
-      "Route": "app.dhuw6ieovz.css",
-      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\wwwroot\\app.css",
+      "Route": "app.98r1s88i57.css.gz",
+      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-98r1s88i57.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2224,7 +2132,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5243"
+          "Value": "2340"
         },
         {
           "Name": "Content-Type",
@@ -2232,56 +2140,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM=\""
+          "Value": "\"EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 13:08:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dhuw6ieovz"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r28L2kAlfCXDu8z2q+YOenaiWCvYDeSYAyRR9feW6eM="
-        }
-      ]
-    },
-    {
-      "Route": "app.dhuw6ieovz.css.gz",
-      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-dhuw6ieovz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2306"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 13:08:21 GMT"
+          "Value": "Tue, 01 Jul 2025 17:51:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2299,7 +2162,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dhuw6ieovz"
+          "Value": "98r1s88i57"
         },
         {
           "Name": "label",
@@ -2307,7 +2170,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EaAqOLMPPEAraNTUsaiTYhn7gA7vmXUqwSXWFykVd3I="
+          "Value": "sha256-EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-98r1s88i57.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000427167877"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 17:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 17:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5wMCj5K8lubDQi7BTOh6xstfx7t0/uY/ICKJKe16IsM="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\Ерік\\Documents\\C#\\Project Dice\\BlazorApp1\\obj\\Debug\\net9.0\\compressed\\psnyflj9j1-98r1s88i57.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 17:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EMgc9xLscMmU+wHUQ1/uUJBI8as7pUAb5wQZxB9a1Ec="
         }
       ]
     },

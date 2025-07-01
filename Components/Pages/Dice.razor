@@ -1,5 +1,6 @@
 @page "/dice"
 @rendermode InteractiveServer
+@inject IJSRuntime JSRuntime
 <PageTitle>Project Dice</PageTitle>
 <div class="conteiner">
 <h1>Ваш баланс: @balance</h1>
@@ -72,11 +73,14 @@
     </div>
 
     <button @onclick="Beting" class="buton">Кинути кубик</button>
-    <p>@diceResult</p>
-    <p>@bet</p>
+    @if (LoseText)
+        {
+        <p class="losetext">You lose!</p>
+        }
 </div>
 @code
 {
+    bool LoseText = false;
     int balance = 500;
     int bet = 0;    
     int dicePredict;
@@ -147,10 +151,11 @@
 
     void Beting()
     {
-    if (dicePredict >0 && bet >0)
+    if (dicePredict >0 && bet >0 && balance>0)
     {
         rollingdice();
         Prize();
+        money();
     }
     else
     {
@@ -170,13 +175,9 @@
     }
     void money()
     {
-        if (bet>balance)
+        if (bet>balance | balance==0)
         {
-
-        }
-        else 
-        {
-
+        LoseText = true;
         }
     }
 }
