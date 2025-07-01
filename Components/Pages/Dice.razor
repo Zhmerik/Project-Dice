@@ -1,6 +1,6 @@
 @page "/dice"
 @rendermode InteractiveServer
-@inject IJSRuntime JSRuntime
+@using System.Timers;
 <PageTitle>Project Dice</PageTitle>
 <div class="conteiner">
 <h1>Ваш баланс: @balance</h1>
@@ -164,9 +164,9 @@
     }
     void Prize()
     {
-        if (dicePredict==diceResult)
+        if (dicePredict==1)
         {
-            balance = bet*2;
+            balance = balance + (bet*2);
         }
         else 
         {
