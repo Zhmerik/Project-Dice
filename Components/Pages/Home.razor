@@ -2,23 +2,23 @@
 @rendermode InteractiveServer
 
 <PageTitle>Project Dice</PageTitle>
+<div class="conteiner">
+    <h1>Вітаю!</h1>
+    <h2>У вас є унікальна можливіть кинути кубик та поставити на те яка грань випаде!</h2>
 
-<h1>Вітаю!</h1>
-<h2>У вас є унікальна можливіть кинути кубик та поставити на те яка грань випаде!</h2>
+    <div class="dice">
+        <p>@diceResult</p>
+    </div>
 
-<div class="dice">
-    
+    <button @onclick="rollingdice" class="buton">Кинути кубик</button>
 </div>
-
-<button @onclick="Perevirca">Кинути кубик</button>
-
-<p>Перевірка: @amout</p>
-
 @code
 {
-    int amout = 0;
-    void Perevirca()
+    int diceResult;
+    void rollingdice()
     {
-        amout++;
+        Random dice = new Random();
+        diceResult = dice.Next(1,7);
     }
+
 }

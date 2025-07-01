@@ -61,6 +61,11 @@ h1:focus {
 
 * {
     text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    padding: 20px;
 }
 
 
@@ -70,18 +75,53 @@ body {
     background-image:
         radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%), 
         linear-gradient(180deg, #3A603D 0%, #2F5C2F 100%); 
-    background-size: cover; /
-    background-repeat: no-repeat;
+    background-size: cover; 
     background-attachment: fixed; 
     margin: 0; 
     overflow-x: hidden; 
     display: flex;
     justify-content: center;
 }
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .dice {
+    color: black;
     height: 200px;
     width: 200px;
     background-color: white;
     margin: 100px;
     border-radius: 50px;
+    justify-content: center;
+}
+
+.dice p {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.buton{
+    background-color: #4CAF50;
+    color: white; 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 8px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+    text-transform: uppercase; 
+}
+.button:hover {
+    background-color: #45a049; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
 }
