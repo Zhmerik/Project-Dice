@@ -1,0 +1,147 @@
+@page "/dice"
+@rendermode InteractiveServer
+<PageTitle>Project Dice</PageTitle>
+<div class="conteiner">
+<h1>Ваш баланс: @balance</h1>
+<h3>Сума ставки: @bet</h3>
+<h3>Ставка на: @dice грань</h3>
+<div class="bet">
+    <h2>Сума ставки:</h2>
+    <ul>
+        <li><button class="buton" @onclick="changebet1">50</button></li>
+        <li><button class="buton" @onclick="changebet2">100</button></li>
+        <li><button class="buton" @onclick="changebet3">200</button></li>
+        <li><button class="buton" @onclick="changebet4">300</button></li>
+        <li><button class="buton" @onclick="changebet5">400</button></li>
+        <li><button class="buton" @onclick="changebet6">500</button></li>
+        <li><button class="buton" @onclick="changebet7">Очистити</button></li>
+    </ul>
+</div>
+<div class="bet">
+    <h2>Грань:</h2>
+    <ul>
+        <li><button class="buton" @onclick="dicepredict1">1</button></li>
+        <li><button class="buton" @onclick="dicepredict2">2</button></li>
+        <li><button class="buton" @onclick="dicepredict3">3</button></li>
+        <li><button class="buton" @onclick="dicepredict4">4</button></li>
+        <li><button class="buton" @onclick="dicepredict5">5</button></li>
+        <li><button class="buton" @onclick="dicepredict6">6</button></li>
+        <li><button class="buton" @onclick="dicepredict7">Очистити</button></li>
+    </ul>
+</div>
+    <div class="dice">
+     @if (diceResult == 1)
+        {
+            <div class="dot dot-pos-5"></div>
+        }
+        else if (diceResult == 2)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 3)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-5"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 4)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-3"></div>
+            <div class="dot dot-pos-7"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 5)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-3"></div>
+            <div class="dot dot-pos-5"></div>
+            <div class="dot dot-pos-7"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+        else if (diceResult == 6)
+        {
+            <div class="dot dot-pos-1"></div>
+            <div class="dot dot-pos-3"></div>
+            <div class="dot dot-pos-4"></div>
+            <div class="dot dot-pos-6"></div>
+            <div class="dot dot-pos-7"></div>
+            <div class="dot dot-pos-9"></div>
+        }
+    </div>
+
+    <button @onclick="rollingdice" class="buton">Кинути кубик</button>
+    <p>@diceResult</p>
+    <p>@bet</p>
+</div>
+@code
+{
+    int balance = 500;
+    int bet = 0;    
+    int dice;
+
+    void changebet1()
+    {
+        bet = bet + 50;
+    }
+    void changebet2()
+    {
+        bet = bet + 100;
+    }
+    void changebet3()
+    {
+        bet = bet + 200;
+    }
+    void changebet4()
+    {
+        bet = bet + 300;
+    }
+    void changebet5()
+    {
+        bet = bet + 400;
+    }
+    void changebet6()
+    {
+        bet = bet + 500;
+    }
+     void changebet7()
+    {
+        bet = 0;
+    }
+    void dicepredict1()
+    {
+        dice = 1;
+    }
+     void dicepredict2()
+    {
+        dice = 2;
+    }
+     void dicepredict3()
+    {
+        dice = 3;
+    }
+     void dicepredict4()
+    {
+        dice = 4;
+    }
+     void dicepredict5()
+    {
+        dice = 5;
+    }
+     void dicepredict6()
+    {
+        dice = 6;
+    }
+     void dicepredict7()
+    {
+        dice = 0;
+    }
+    int diceResult;
+    void rollingdice()
+    {
+        Random dice = new Random();
+        diceResult = dice.Next(1,7);
+    }
+
+}

@@ -77,4 +77,4 @@ C:\Users\Ерік\Documents\C#\Project Dice\BlazorApp1\obj\Debug\net9.0\ref\Blaz
 C:\Users\Ерік\Documents\C#\Project Dice\BlazorApp1\obj\Debug\net9.0\BlazorApp1.sourcelink.json
 C:\Users\Ерік\Documents\C#\Project Dice\BlazorApp1\obj\Debug\net9.0\compressed\ysu4imbah3-h3nk69ojdt.gz
 C:\Users\Ерік\Documents\C#\Project Dice\BlazorApp1\obj\Debug\net9.0\compressed\uxxncn5hnr-h3nk69ojdt.gz
-C:\Users\Ерік\Documents\C#\Project Dice\BlazorApp1\obj\Debug\net9.0\compressed\psnyflj9j1-zuov39s3kv.gz
+C:\Users\Ерік\Documents\C#\Project Dice\BlazorApp1\obj\Debug\net9.0\compressed\psnyflj9j1-dhuw6ieovz.gz
